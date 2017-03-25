@@ -34,7 +34,7 @@ module Mandelcrystal
     case dwell
     when 0..4 then "O"
     when 5..8 then "o"
-    when 9..16 then "*"
+    when 9..16 then "°"
     when 17..32 then "."
     else " "
     end
